@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Data and fitting code: A unified stochastic random walk theory for Kolmogorov spectrum, halo mass functions, and halo density profiles"
+authors:
+  - family-names: Xu
+    given-names: Zhijie (Jay)
+    affiliation: Pacific Northwest National Laboratory
+    orcid: "https://orcid.org/0000-0003-0459-4531"
+license: [MIT, CC-BY-4.0]
+date-released: 2026-11-05
+preferred-citation:
+  type: article
+  title: "A unified stochastic random walk theory for Kolmogorov spectrum, halo mass functions, and halo density profiles"
+  authors:
+    - family-names: Xu
+      given-names: Zhijie (Jay)
+  journal: "Scientific Reports"
+  status: in-press
+  year: 2026
+  doi: 10.1038/s41598-026-69825-4
+references:
+  - type: article
+    title: "A stochastic random walk framework for Kolmogorov spectrum and nonequilibrium dynamics (Research Square preprint)"
+    authors: [{family-names: Xu, given-names: Zhijie (Jay)}]
+    year: 2026
+    doi: 10.21203/rs.3.rs-9674983/v1
+  - type: software
+    title: "Data fitting code for the mass-function fit of Fig. 6"
+    authors: [{family-names: Xu, given-names: Zhijie (Jay)}]
+    year: 2026
+    doi: 10.5281/zenodo.22051522

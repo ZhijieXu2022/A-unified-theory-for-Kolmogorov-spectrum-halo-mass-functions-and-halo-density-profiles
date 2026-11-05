@@ -1,0 +1,15 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
+# Updated,11/2026,
+#Name,"Fig. 6: least-squares refit of Eq. (41) to the plotted Illustris-1-Dark points (z = 0, 2, 4; residuals in ln f)",
+#Ref. [1] This paper,https://doi.org/10.1038/s41598-026-69825-4,"Z. Xu 2026, Sci. Rep."
+,,
+,,
+parameter,value,quoted
+eta0*,1.1587354,1.162
+q,0.363488378,0.365
+p,1.16130454,1.185
+rms_fit,0.0837318963,
+rms_quoted,0.0966291024,
+rms_ST,0.134970869,
+rms_PS,0.446942104,
+n_points,863,

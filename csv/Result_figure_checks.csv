@@ -1,0 +1,51 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
+# Updated,11/2026,,,
+#Name,Checks of the data figures against the text (code/pipeline/s03_figure_checks.py),,,
+#Ref. [1] This paper,https://doi.org/10.1038/s41598-026-69825-4,"Z. Xu 2026, Sci. Rep.",,
+,,,,
+,,,,
+fig,what,value,status,note
+3/D,I_0 of the linear TNG spectrum / (P(k_eq) k_eq) (Eq. D8 takes 1),5.18,note,
+3/D,P(k_eq) of Eq. (D9) / linear TNG P(k_eq),5.48,note,
+3/D,"sigma_h(R->0, z=0) from the TNG linear spectrum, km/s (Eq. D11 with Planck values: 309)",300.9,pass,
+3,Illustris TNG Linear: local index n = d ln P/d ln k over k = 0.1-1 h/Mpc (1/k = 1-10 Mpc/h),-1.94,note,P(k)k varies by a factor 5.59 in the window
+3,Illustris TNG z=0: local index n = d ln P/d ln k over k = 0.1-1 h/Mpc (1/k = 1-10 Mpc/h),-1.15,pass,P(k)k varies by a factor 1.47 in the window
+3,Illustris TNG z=1: local index n = d ln P/d ln k over k = 0.1-1 h/Mpc (1/k = 1-10 Mpc/h),-1.44,note,P(k)k varies by a factor 2.15 in the window
+3,Illustris TNG z=3: local index n = d ln P/d ln k over k = 0.1-1 h/Mpc (1/k = 1-10 Mpc/h),-1.8,note,P(k)k varies by a factor 4.09 in the window
+3,Illustris-1-Dark z=0: local index n = d ln P/d ln k over k = 0.1-1 h/Mpc (1/k = 1-10 Mpc/h),-1.22,pass,P(k)k varies by a factor 1.48 in the window
+"4,5",Virgo m_h* at z=2: Fig. 5 point / crossing of the Fig. 4 curves,0.746,erratum,3.29e+12 vs 4.41e+12 Msun
+"4,5",Virgo m_h* at z=1.5: Fig. 5 point / crossing of the Fig. 4 curves,1,pass,6.16e+12 vs 6.16e+12 Msun
+"4,5",Virgo m_h* at z=1: Fig. 5 point / crossing of the Fig. 4 curves,0.999,pass,9.85e+12 vs 9.86e+12 Msun
+"4,5",Virgo m_h* at z=0.5: Fig. 5 point / crossing of the Fig. 4 curves,0.998,pass,1.7e+13 vs 1.7e+13 Msun
+"4,5",Virgo m_h* at z=0.3: Fig. 5 point / crossing of the Fig. 4 curves,1,pass,2.26e+13 vs 2.26e+13 Msun
+"4,5",Virgo m_h* at z=0.1: Fig. 5 point / crossing of the Fig. 4 curves,1,pass,3.07e+13 vs 3.07e+13 Msun
+"4,5",Virgo m_h* at z=0: Fig. 5 point / crossing of the Fig. 4 curves,0.998,pass,3.86e+13 vs 3.87e+13 Msun
+4,slope of sigma_v^2 with m_h for 0.3-3 m_h* (all z; text: 2/3),0.73-1.02,note,
+4,slope of sigma_h^2 with m_h for m_h*/30 < m_h < m_h* (text: nearly mass independent),-0.05-0.05,pass,
+5,Illustris-1-Dark m_h* growth exponent for a <= 0.5 (text: a^3),2.74,note,the a^3 line is a guide; points rise as a^2.7
+5,Illustris-1-Dark m_h* growth exponent for a >= 0.5 (text: approaches a^{3/2}),1.27,note,
+5,"Illustris-1-Dark M* growth exponent before / after a = 0.5 (text: 15/4, 3)",3.59 / 2.87,pass,
+5,crossover a_* where M* = m_h* (Illustris-1-Dark; text: a_* = 0.5),0.500021518,pass,
+5,crossover a_* where M* = m_h* (Virgo SCDM),0.788,note,
+5,m_h*/M_PS* (Virgo) at z = 2 with M_PS* from sigma_delta = delta_c (text: ~50),349,erratum,468 with the Fig. 4 crossing; the value ~50 is reproduced by M = 4pi/3 rho k_NL^-3 with Delta^2(k_NL) = 1: 44
+5,m_h*/M_PS* (Virgo) at z = 0 (text: order unity),3.47,note,
+6,"refit of Eq. (41) to the plotted Illustris points (z = 0, 2, 4; ln f): eta0*, q, p (text: 1.162, 0.365, 1.185)","1.159, 0.363, 1.161",pass,rms ln f 0.084 (fit) vs 0.097 (quoted)
+6,rms of ln f: double-lambda (quoted) / ST / PS,0.097 / 0.135 / 0.447,pass,
+6,plotted curve f_{ST}(\nu)  (Eq.(42)) vs its formula (max |d ln f|),3.43e-02,note,
+6,plotted curve f_{PS}(\nu) (Eq. (30)) vs its formula (max |d ln f|),4.57e-02,note,
+6,plotted curve f_{D\lambda}(\nu) (Eq. (41)) vs its formula (max |d ln f|),7.11e-15,pass,
+7,FIRE:DMO (2022)  m_h=1.4 \times10^{12}M_{sun}: density slope over 1-6 kpc from rho r^(4/3),-1.33,pass,rho r^(4/3) varies by 1.08
+7,Dubinski (1991) m_h=10^{12.18\pm0.22} M_{sun}: density slope over 1-6 kpc from rho r^(4/3),-1.36,pass,rho r^(4/3) varies by 1.03
+7,Aquarius (2008) m_h=1.84\times10^{12}M_{sun}: density slope over 1-6 kpc from rho r^(4/3),-1.45,pass,rho r^(4/3) varies by 1.23
+7,Via Lactea (2008) m_h=1.7\times 10^{12} M_{sun}: density slope over 1-6 kpc from rho r^(4/3),-1.41,pass,rho r^(4/3) varies by 1.14
+7,Ghalo (2009) m_h=1.5-2\times10^{12}M_{sun}: density slope over 1-6 kpc from rho r^(4/3),-1.39,pass,rho r^(4/3) varies by 1.10
+7,Illustris-1-Dark: m_h=10^{14}M_{sun}: density slope over 1-6 kpc from rho r^(4/3),-1.16,pass,rho r^(4/3) varies by 1.18
+7,Illustris-1-Dark: m_h=10^{13.5}M_{sun}: density slope over 1-6 kpc from rho r^(4/3),-1.18,pass,rho r^(4/3) varies by 1.15
+7,Illustris-1-Dark: m_h=10^{13}M_{sun}: density slope over 1-6 kpc from rho r^(4/3),-1.3,pass,rho r^(4/3) varies by 1.06
+7,Illustris-1-Dark: m_h=10^{12}M_{sun}: density slope over 1-6 kpc from rho r^(4/3),-1.5,pass,rho r^(4/3) varies by 1.11
+7,Illustris-1-Dark: m_h=10^{11}M_{sun}: density slope over 1-6 kpc from rho r^(4/3),-1.79,note,rho r^(4/3) varies by 1.33
+8,Aquarius (2008) m_h=1.84\times10^{12}M_{sun}: mean local slope s over 1-6 kpc (text: approximately -4/3),-1.46,pass,range -1.70 to -1.27
+8,VL2 (2009) m_h=2\times10^{12}M_{sun}: mean local slope s over 1-6 kpc (text: approximately -4/3),-1.44,pass,range -1.58 to -1.35
+8,Ghalo_3 (2009) m_h=1.5-2\times10^{12}M_{sun}: mean local slope s over 1-6 kpc (text: approximately -4/3),-1.38,pass,range -1.46 to -1.30
+8,Via Lactea (2008) m_h=1.7\times 10^{12} M_{sun}: mean local slope s over 1-6 kpc (text: approximately -4/3),-1.43,pass,range -1.62 to -1.29
+8,FIRE:DMO (2022)  m_h=1.4 \times10^{12}M_{sun}: mean local slope s over 1-6 kpc (text: approximately -4/3),-1.35,pass,range -1.53 to -1.28
