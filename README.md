@@ -11,7 +11,6 @@ Fit code record: Zenodo, [doi:10.5281/zenodo.22051522](https://doi.org/10.5281/z
 - Spectrum constant C_K = (βC_X)^−2/3/3 with β = 1/(2π); for C_X ≈ 0.5–0.6 this gives C_K ≈ 1.6–1.8, consistent with direct numerical simulations (C_K = 1.5–1.7).
 - Halo assembly in mass space with waiting time τ ∝ m_h^−λ gives a stretched-Gaussian mass function that reproduces the Press–Schechter form, with a double-λ shape: λ reflects the primordial spectrum at low masses and approaches 2/3 near the characteristic mass m_h*.
 - The large-scale power spectrum of the assembly approaches P(k) ∝ k^−1; the crossover time of m_h* in Illustris-1-Dark is a_* ≈ 0.5.
-- The characteristic mass m_h* exceeds the linear-theory Press–Schechter mass M_PS* by about 350 at z = 2 in the Virgo SCDM run (σ_8 = 0.50), falling to about 3.5 today.
 - A spatial random walk with waiting time τ ∝ r^−γ gives a double-γ density profile that reproduces the Einasto profile; the outer slope approaches 2/3, i.e. ρ ∝ r^−4/3 in the gravity-dominated regime.
 - Simulated haloes in six independent suites of 10^11–10^14 M_⊙ show a compensated-profile plateau at 1–6 kpc; the mean local slopes of five haloes lie between −1.46 and −1.35, in agreement with the −4/3 prediction.
 
@@ -23,7 +22,6 @@ Fit code record: Zenodo, [doi:10.5281/zenodo.22051522](https://doi.org/10.5281/z
 | `createFit.m` | MATLAB curve fit of the three-parameter model in Eq. (41), used for the mass-function fit of Fig. 6 |
 | `csv/Fig6_z0.csv`, `csv/Fig6_z2.csv`, `csv/Fig6_z4.csv` | Mass-function data at z = 0, 2 and 4 used by the fit |
 | `csv/Fig03_…` to `csv/Fig08_…` | Plotted data of Figs. 3–8 |
-| `csv/Result_…` | Values computed for the text, equation audit and figure checks |
 | `LICENSE` | Licences of the code and of the text and data |
 | `CITATION.cff` | Citation metadata |
 
